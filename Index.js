@@ -138,4 +138,4 @@ client.once("ready", () => {
   setInterval(updatePanel, 5 * 60 * 1000);
 });
 
-client.login("./env");
+client.login(TOKEN);
