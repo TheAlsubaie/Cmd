@@ -24,7 +24,7 @@ let panelChannelId = null;
 
 /* ================= IMAGE GENERATOR ================= */
 async function generateImage(roles) {
-  const bg = await loadImage("./background.png");
+  const bg = await loadImage("https://i.thteam.me/bHdFWZ6s7W.jpg");
 
   const canvas = createCanvas(bg.width, bg.height);
   const ctx = canvas.getContext("2d");
